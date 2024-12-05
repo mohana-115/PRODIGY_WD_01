@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Prodigy Restaurant</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Prodigy Restaurant</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-header">
+            <h1>Our Menu</h1>
+            <p>Explore our delicious offerings crafted with the finest ingredients.</p>
+        </section>
+
+        <section class="menu-filters">
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="starters">Starters</button>
+            <button class="filter-btn" data-category="mains">Mains</button>
+            <button class="filter-btn" data-category="desserts">Desserts</button>
+            <button class="filter-btn" data-category="drinks">Drinks</button>
+        </section>
+
+        <section class="menu-items">
+            <!-- Starters -->
+            <div class="menu-item" data-category="starters">
+                <img src="garlic bread.jpeg" alt="Starter Dish">
+                <h3>Garlic Bread</h3>
+                <p>Crispy garlic bread with a side of marinara sauce.</p>
+                <span>$5.99</span>
+            </div>
+
+            <!-- Mains -->
+            <div class="menu-item" data-category="mains">
+                <img src="grill chicken.jpeg" alt="Main Dish">
+                <h3>Grill Chicken</h3>
+                <p>Perfectly marinated chicken grilled to perfection.</p>
+                <span>$15.99</span>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-item" data-category="desserts">
+                <img src="choco lava cake.jpeg" alt="Dessert">
+                <h3>Chocolate Lava Cake</h3>
+                <p>Rich chocolate cake with a gooey molten center.</p>
+                <span>$7.99</span>
+            </div>
+
+            <!-- Drinks -->
+            <div class="menu-item" data-category="drinks">
+                <img src="milkshake.jpeg" alt="Drink">
+                <h3>Oreo Milkshake</h3>
+                <p>A creamy blend of milk, vanilla ice cream, and Oreos.</p>
+                <span>$4.99</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prodigy Restaurant. All Rights Reserved.</p>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>
